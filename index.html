@@ -26,20 +26,30 @@
      </div>
 
      <div class="c-1">
-        <label for="Amount">Mortgage Amount</label>
-        <input type="text" id="number" placeholder="€"/>
-         
+       
+         <label for="Amount">Mortgage Amount</label>
+     <div class="input-box" contenteditable="true">
+            <span class="euro">€</span>     
+      </div>
      </div>
+     
+
      <div class="form-row">
         
         <div class="box">
            <label for="Mortgage Term">Mortgage Term</label> 
-           <input id=" Term" class="list" placeholder="years"/>
+           <div class="Term" contenteditable="true">
+             <span class="year">years</span> 
+           </div>
+           
         </div>
            
            <div class="box">
             <label for="Interest Rate">Interest Rate</label>
-            <input id="Rate"  class="bold"  placeholder="%"/>
+            <div class="bold" contenteditable="true">
+              <span class="percent">%</span>     
+            </div>
+            
            </div>
           
       </div>
@@ -59,14 +69,15 @@
                   </label>
               </div>
         </div>
-  
-  
 
-         <button class="pay">
+       <button class="pay">
           <img src="./assets/images/icon-calculator.svg"   href="./assets/images/favicon-32x32.png">
-          Calculate Repayments</button> 
+          Calculate Repayments
+        </button> 
   </div>
   
+
+
   <div class="box-2" >
        <img class="gap" src="./assets/images/illustration-empty.svg"   href="./assets/images/favicon-32x32.png">
       <h2 class="h-5">   Results shown here  </h2>
